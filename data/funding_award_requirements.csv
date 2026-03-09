@@ -1,0 +1,27 @@
+requirement_id,opportunity_id,requirement_type,requirement_name,requirement_value,is_mandatory,description
+REQ-001,OPP-001,budget,Direct costs per year max,500000,true,Maximum direct costs per 12-month budget period
+REQ-002,OPP-001,narrative,Research strategy page limit,12,true,Main research plan section page limit
+REQ-003,OPP-001,narrative,Specific aims page limit,1,true,Single page for specific aims
+REQ-004,OPP-001,eligibility,PI status,Independent investigator,true,Must hold independent faculty position
+REQ-005,OPP-001,submission,Application format,SF424 R&R,true,Standard NIH application package
+REQ-006,OPP-002,budget,Total direct costs max,275000,true,Total over 2 years; non-renewable
+REQ-007,OPP-002,budget,Project period max months,24,true,Maximum 2-year project period
+REQ-008,OPP-002,narrative,Research strategy page limit,6,true,Shorter than R01; exploratory focus
+REQ-009,OPP-002,eligibility,Preliminary data,Not required,false,Designed for projects with limited preliminary data
+REQ-010,OPP-003,budget,Total direct costs max,100000,true,Small project cap over 2 years
+REQ-011,OPP-003,narrative,Research strategy page limit,10,true,Proportionate to budget size
+REQ-012,OPP-004,eligibility,Career stage,Postdoctoral or early faculty,true,K-series career development
+REQ-013,OPP-004,eligibility,Mentor requirement,Required,true,Must have qualified mentor and career development plan
+REQ-014,OPP-004,budget,Salary support percent,75,true,Percent of effort on career development
+REQ-015,OPP-005,eligibility,Career stage,Postdoctoral or early faculty,true,Patient-oriented research focus
+REQ-016,OPP-005,eligibility,Clinical degree,Required,true,MD or equivalent for patient contact
+REQ-017,OPP-006,eligibility,NIH staff involvement,Substantial,true,Cooperative agreement requires NIH collaboration
+REQ-018,OPP-009,eligibility,Research focus,Health services/primary care,true,AHRQ priority areas
+REQ-019,OPP-013,eligibility,Patient engagement,Required,true,PCORI requires patient/stakeholder engagement
+REQ-020,OPP-013,eligibility,Comparative effectiveness,Required,true,Must compare interventions or strategies
+REQ-021,OPP-011,eligibility,Institutional,CTSA consortium,true,CCTSI multi-institution partnership
+REQ-022,OPP-016,eligibility,Institutional,CU Anschutz faculty,true,Internal funding for Anschutz investigators
+REQ-023,OPP-019,eligibility,Diversity criteria,Underrepresented group,true,Enhance diversity of research workforce
+REQ-024,OPP-001,compliance,IRB approval,Required before funding,true,Human subjects research approval
+REQ-025,OPP-001,compliance,IACUC approval,Required if applicable,false,Animal research approval
+REQ-026,OPP-001,compliance,Data sharing plan,Required,true,NIH data management and sharing policy
