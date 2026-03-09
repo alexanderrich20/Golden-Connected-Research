@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requirement_Type__c</fullName>
+    <label>Requirement Type</label>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>budget</fullName><label>Budget</label><default>false</default></value>
+            <value><fullName>narrative</fullName><label>Narrative</label><default>false</default></value>
+            <value><fullName>eligibility</fullName><label>Eligibility</label><default>false</default></value>
+            <value><fullName>compliance</fullName><label>Compliance</label><default>false</default></value>
+            <value><fullName>submission</fullName><label>Submission</label><default>false</default></value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackHistory>true</trackHistory>
+</CustomField>

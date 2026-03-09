@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Funding_Opportunity__c</fullName>
+    <label>Funding Opportunity</label>
+    <type>Lookup</type>
+    <referenceTo>Funding_Opportunity__c</referenceTo>
+    <relationshipLabel>Individual Applications</relationshipLabel>
+    <relationshipName>Individual_Applications</relationshipName>
+    <required>true</required>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <trackHistory>true</trackHistory>
+</CustomField>
