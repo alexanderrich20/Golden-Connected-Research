@@ -1,86 +1,80 @@
-# Grant Management Dataset
+# Grant Management Dataset — CU Anschutz
 
-Dataset for populating the grant management data model, based on **CU Anschutz Medical Campus** research administration patterns. Data reflects grant types and success rates from ACCORDS (Adult & Child Center for Outcomes Research & Delivery Science), CCTSI, and institutional sources.
+Dataset for the **Connected Research Administration** solution (AWS + Salesforce). Data follows the [solution architecture data model](../docs/cu-anschutz/data-model.md) and is grounded in **CU Anschutz Medical Campus** public research grant activity.
 
-## Data Sources
+## Data Sources (Anschutz public)
 
 - [ACCORDS 2024 Grant Awards](https://accords.cuanschutz.edu/research-publications/grant-awards/2024-grant-awards)
 - [CU Anschutz Research Development](https://research.cuanschutz.edu/research-development)
+- [CCTSI — Colorado Clinical and Translational Sciences Institute](https://news.cuanschutz.edu/cctsi/university-of-colorado-anschutz-medical-campus-receives-54-million-from-nih) ($54M NIH/NCATS UL1, 2024)
+- [ARPA-H award](https://news.cuanschutz.edu) (CU Anschutz public award)
 - [K to R Transition Program Success Rates](https://cctsi.cuanschutz.edu/docs/librariesprovider28/k-to-r-transition-program/pre-r-success-rates.pdf)
 - NIH, AHRQ, CDC, PCORI, and foundation funding mechanisms
 
-## Entity Relationship Overview
+## Solution architecture alignment
 
-```
-Funding_Opportunity (1) ──────< (N) Funding_Award_Requirement
-       │
-       │ (1)
-       │
-       └────────────< (N) Individual_Application
-                            │
-                            │ (1)
-                            │
-                            └────────< (1) Funding_Award
-```
+This dataset implements the **core entities** from [docs/cu-anschutz/data-model.md](../docs/cu-anschutz/data-model.md):
+
+| Entity (data model) | CSV file | Description |
+|---------------------|----------|-------------|
+| **Researcher** | `researchers.csv` | Unified PI identity; source_system_ids; expertise; department (identity resolution for Data 360) |
+| **Funding Opportunity** | `funding_opportunities.csv` | Sponsor, award type, deadlines, terms_ref; includes CCTSI UL1, ARPA-H |
+| **Proposal** | `individual_applications.csv` | application_id → id; opportunity_id; pi_researcher_id (FK to researchers); status; submitted_date |
+| **Grant** | `funding_awards.csv` | award_id → id; application_id → proposal_id; lifecycle_stage; sponsor; period dates |
+| **Award Financial** | `award_financials.csv` | grant_id; budget_total; expended; cost_center (PeopleSoft-style) |
+| **Cost Transfer** | `cost_transfers.csv` | grant_id; award_financial_id; status; allowability_result; initiated_at (for cost transfer agent) |
+| **Protocol** | `protocols.csv` | researcher_id; type (IRB); status; expiry_date (eProtocol-style) |
+| **Compliance Item** | `compliance_items.csv` | grant_id; protocol_id; requirement_type; due_date; status |
+| **Document Record** | `document_records.csv` | grant_id; document_type; storage_ref; created_at (OnBase/Cayuse refs) |
+
+Additional file used for requirements per opportunity (pre-award): `funding_award_requirements.csv` (opportunity_id, requirement_type, compliance).
 
 ## Files
 
 | File | Records | Description |
 |------|---------|-------------|
-| `funding_opportunities.csv` | 19 | Grant types/sponsors CU Anschutz pursues successfully |
-| `funding_award_requirements.csv` | 26 | Requirements per opportunity (budget limits, eligibility, compliance) |
-| `individual_applications.csv` | 25 | PI applications with status and award amounts |
-| `funding_awards.csv` | 26 | Awarded grants with financial details |
+| `researchers.csv` | 23 | Unified researcher/PI profiles (ACCORDS PIs); source_system_ids for identity resolution |
+| `funding_opportunities.csv` | 19 | Grant types/sponsors; CCTSI UL1, ARPA-H, NIH, AHRQ, PCORI, foundations, internal |
+| `funding_award_requirements.csv` | 26 | Requirements per opportunity (budget, eligibility, compliance) |
+| `individual_applications.csv` | 25 | Proposals with pi_researcher_id → researchers; status; award amounts |
+| `funding_awards.csv` | 26 | Awards (incl. CCTSI-UL1-2024, ARPA-H-Eye-2024); lifecycle_stage |
+| `award_financials.csv` | 26 | Budget and expended by grant; cost_center; source_system PeopleSoft |
+| `cost_transfers.csv` | 5 | Sample cost transfers for Agentforce workflow (allowable/rejected/pending) |
+| `protocols.csv` | 17 | IRB protocols linked to researchers; expiry for compliance |
+| `compliance_items.csv` | 12 | Sponsor/IRB due dates; status (Not started, Due soon, Submitted) |
+| `document_records.csv` | 9 | NoA, contracts, cost transfer approvals; storage_ref (OnBase) |
 
-## CU Anschutz Success Patterns
+## CU Anschutz success patterns
 
-| Sponsor Type | Success Rate | Notes |
-|--------------|--------------|-------|
+| Sponsor type | Success rate | Notes |
+|--------------|--------------|--------|
 | NIH (new submissions) | 29% | ~2x national average (16%) via KTR program |
 | NIH (resubmissions) | 36% | vs 28% national |
 | Non-NIH (foundations, etc.) | ~57% | 60 of 106 submissions funded |
 | Internal (AAI, Ergen) | 100% | Pilot/seed funding |
 
-## Grant Types Represented
+## Grant types represented
 
 **Federal (NIH):** R01, R21, R03, R33, R25, K08, K23, U01, UL1, Supplements  
-**Federal (Other):** AHRQ R01, CDC R21, ARPA-H  
+**Federal (other):** AHRQ R01, CDC R21, ARPA-H  
 **Foundation:** PCORI, American Cancer Society, AAP, Ergen Family  
 **Internal:** Anschutz Acceleration Initiative  
-**Subcontracts:** Johns Hopkins U01, PEDSNet, Immunize.org  
-
-## Field Reference
-
-### funding_opportunities
-- `opportunity_id` – PK
-- `sponsor`, `sponsor_type` – Federal/Foundation/Internal
-- `award_type` – R01, K08, etc.
-- `success_rate_cu_anschutz` – CU Anschutz historical rate
-
-### funding_award_requirements
-- `requirement_id` – PK
-- `opportunity_id` – FK to funding_opportunities
-- `requirement_type` – budget, narrative, eligibility, compliance
-
-### individual_applications
-- `application_id` – PK
-- `opportunity_id` – FK to funding_opportunities
-- `pi_name`, `pi_department` – Principal investigator
-- `status` – Awarded, Pending, etc.
-
-### funding_awards
-- `award_id` – PK
-- `application_id` – FK to individual_applications (nullable for institutional awards)
-- `cfda_number` – Federal Catalog of Domestic Assistance
-- `prime_recipient`, `subrecipient` – For subcontract flow
+**Institutional (public):** CCTSI UL1 $54M; ARPA-H award  
+**Subcontracts:** Johns Hopkins U01, PEDSNet
 
 ## Loading into Salesforce
 
-Use Data Loader or similar ETL:
+Use the load script (expects Salesforce object names and optional mapping):
 
-1. **Funding_Opportunity__c** – Load `funding_opportunities.csv`  
-2. **Funding_Award_Requirement__c** – Load `funding_award_requirements.csv` (map `opportunity_id` to Funding_Opportunity__c)  
-3. **Individual_Application__c** – Load `individual_applications.csv`  
-4. **Funding_Award__c** – Load `funding_awards.csv` (map `application_id` to Individual_Application__c)
+```bash
+./scripts/load-grant-data.sh <org-alias>
+```
 
-Ensure custom objects and lookup/master-detail relationships exist before load.
+For the **conformed** (architecture) CSVs, map fields as follows if your org uses different API names:
+
+- `opportunity_id` → Funding_Opportunity__c (external id or Opportunity_Id__c)
+- `application_id` → Individual_Application__c (external id or Application_Id__c)
+- `award_id` → Funding_Award__c (external id or Award_Id__c)
+- `pi_researcher_id` → lookup to Researcher 360 or Contact
+
+See [docs/cu-anschutz](../docs/cu-anschutz) for the full solution architecture (personas, roadmap, agents, integration map).

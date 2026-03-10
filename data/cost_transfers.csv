@@ -1,0 +1,6 @@
+id,grant_id,award_financial_id,status,allowability_result,amount,from_cost_center,to_cost_center,justification,initiated_at,approved_at,source_system,ingested_at
+CT-001,AW-007,AF-007,Approved,Allowable,12500,ACCORDS-107,ACCORDS-107-Supplies,Equipment reclassification per UG 2 CFR 200.313,2024-11-01T14:22:00Z,2024-11-05T09:15:00Z,PeopleSoft,2024-11-01T14:23:00Z
+CT-002,AW-015,AF-015,Pending review,,8200,ACCORDS-114,ACCORDS-114-Salaries,Salary correction BP2; prior approval requested,2025-01-15T11:00:00Z,,PeopleSoft,2025-01-15T11:01:00Z
+CT-003,AW-008,AF-008,Approved,Allowable,18500,ACCORDS-108,ACCORDS-108-Other,Subcontract cost transfer; within same grant,2024-12-10T08:30:00Z,2024-12-12T16:45:00Z,PeopleSoft,2024-12-10T08:31:00Z
+CT-004,AW-018,AF-018,Rejected,Not allowable - unallowable cost under PCORI terms,22000,ACCORDS-116,ACCORDS-116-Other,Marketing; PCORI terms prohibit,2025-01-08T09:00:00Z,2025-01-10T14:00:00Z,PeopleSoft,2025-01-08T09:01:00Z
+CT-005,AW-025,AF-025,Approved,Allowable,45000,CCTSI-001,CCTSI-Pilot,Pilot award transfer per CCTSI internal policy,2024-12-01T10:00:00Z,2024-12-03T11:30:00Z,PeopleSoft,2024-12-01T10:01:00Z

@@ -1,0 +1,24 @@
+unified_id,source_system_ids,name,role,expertise,compliance_status,department,ingested_at
+RES-001,InfoEd:PI-001;ePERS:EMP-101;eProtocol:SUBM-201,Monica Perez Jolles,Faculty/Principal Investigator,Health services research; primary care; child psychosocial screening,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-002,InfoEd:PI-002;ePERS:EMP-102,Dan Matlock,Faculty/Principal Investigator,Shared decision making; dementia; older adults,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-003,InfoEd:PI-003;ePERS:EMP-103;eProtocol:SUBM-203,Jill Cotter,Faculty/Principal Investigator,Antibiotic stewardship; pediatric pneumonia; hospital medicine,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-004,InfoEd:PI-004;ePERS:EMP-104,Marisha Burden,Faculty/Principal Investigator,Hospitalist wellness; burnout; workforce,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-005,InfoEd:PI-005;ePERS:EMP-105,Nancy Donelan-McCall,Faculty/Principal Investigator,Suicide prevention; overdose; preventive interventions,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-006,InfoEd:PI-006;ePERS:EMP-106;eProtocol:SUBM-206,Sarguni Singh,Faculty/Principal Investigator,Geriatric oncology; skilled nursing; person-centered outcomes,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-007,InfoEd:PI-007;ePERS:EMP-107;eProtocol:SUBM-207,Jennifer Stevens-Lapsley,Faculty/Principal Investigator,Rehabilitation; total knee arthroplasty; neuromuscular stimulation,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-008,InfoEd:PI-008;ePERS:EMP-108;eProtocol:SUBM-208,Sean O'Leary,Faculty/Principal Investigator,Primary care; cancer prevention; equity; immunization,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-009,InfoEd:PI-009;ePERS:EMP-109;eProtocol:SUBM-209,Sarah Tevis,Faculty/Principal Investigator,Breast cancer; sexual health; survivorship,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-010,InfoEd:PI-010;ePERS:EMP-110;eProtocol:SUBM-210,Lily Cervantes,Faculty/Principal Investigator,Kidney disease; health equity; workforce diversity,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-011,InfoEd:PI-011;ePERS:EMP-111;eProtocol:SUBM-211,Amy Huebschmann,Faculty/Principal Investigator,Childhood obesity; family-based intervention; behavioral health,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-012,InfoEd:PI-012;ePERS:EMP-112;eProtocol:SUBM-212,Jerica Berge,Faculty/Principal Investigator,Family systems; engagement; equity in research; CHEER,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-013,InfoEd:PI-013;ePERS:EMP-113,Gretchen Domek,Faculty/Principal Investigator,Pediatric health; early language; public libraries,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-014,InfoEd:PI-014;ePERS:EMP-114;eProtocol:SUBM-214,Bethany Kwan,Faculty/Principal Investigator,Psychosocial stress; cardiometabolic health; food insecurity; children,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-015,InfoEd:PI-015;ePERS:EMP-115;eProtocol:SUBM-215,Jamie Feinstein,Faculty/Principal Investigator,Cancer supportive care; technology; clinician training,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-016,InfoEd:PI-016;ePERS:EMP-116;eProtocol:SUBM-216,Benjamin Brewer,Faculty/Principal Investigator,Heart failure; neurohormonal therapy; implementation,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-017,InfoEd:PI-017;ePERS:EMP-117,David Higgins,Faculty/Principal Investigator,Vaccine recommendations; clinical support staff; team-based care,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-018,InfoEd:PI-018;ePERS:EMP-118,Anna Abrams,Faculty/Principal Investigator,Personalization; rapid design; implementation science,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-019,InfoEd:PI-019;ePERS:EMP-119,Russ Glasgow,Faculty/Principal Investigator,Implementation science; primary care; equity; RE-AIM,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-020,InfoEd:PI-020;ePERS:EMP-120;eProtocol:SUBM-220,Larry Allen,Faculty/Principal Investigator,Heart failure; record linkage; LLM; PCORI,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-021,InfoEd:PI-021;ePERS:EMP-121;eProtocol:SUBM-221,Laura Scherer,Faculty/Principal Investigator,Breast cancer risk; decision making; Black women,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-022,InfoEd:PI-022;ePERS:EMP-122;eProtocol:SUBM-222,Tim Benke,Faculty/Principal Investigator,CDKL5 deficiency; biomarkers; rare disease; pediatrics,Current,ACCORDS,2024-06-01T00:00:00Z
+RES-023,InfoEd:PI-023;ePERS:EMP-123;eProtocol:SUBM-223,Prateeti Khazanie,Faculty/Principal Investigator,Heart failure; mechanical circulatory support; outcomes,Current,ACCORDS,2024-06-01T00:00:00Z

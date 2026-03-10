@@ -1,0 +1,13 @@
+id,grant_id,protocol_id,requirement_type,due_date,status,description,source_system,ingested_at
+CI-001,AW-001,,Annual progress report,2025-08-01,Not started,AHRQ annual progress report,Sponsor,2024-09-15T00:00:00Z
+CI-002,AW-001,PROT-001,IRB renewal,2025-08-01,Not started,IRB continuing review for PROT-001,eProtocol,2024-09-15T00:00:00Z
+CI-003,AW-007,,RPPR,2025-07-15,Not started,NIH RPPR for BP1,Sponsor,2024-08-15T00:00:00Z
+CI-004,AW-007,PROT-005,IRB renewal,2025-11-01,Not started,IRB continuing review for NMES trial,eProtocol,2024-08-15T00:00:00Z
+CI-005,AW-013,,PCORI annual report,2025-04-30,Not started,PCORI engagement and impact report,Sponsor,2024-05-15T00:00:00Z
+CI-006,AW-015,,Financial report,2025-02-28,Not started,NHLBI FFR BP1,Sponsor,2024-03-15T00:00:00Z
+CI-007,AW-016,,Financial report,2025-02-28,Not started,NHLBI FFR BP1,Sponsor,2024-03-15T00:00:00Z
+CI-008,AW-025,,CTSA annual report,2025-06-30,Not started,NCATS CTSA annual progress,Sponsor,2024-07-15T00:00:00Z
+CI-009,AW-026,,ARPA-H milestone report,2025-03-31,Not started,ARPA-H Year 1 milestone deliverable,Sponsor,2024-10-15T00:00:00Z
+CI-010,AW-008,PROT-006,IRB renewal,2025-12-01,Not started,IRB continuing review cancer prevention,eProtocol,2024-07-15T00:00:00Z
+CI-011,,PROT-016,IRB renewal,2025-05-01,Due soon,CDKL5 multi-site - continuing review,eProtocol,2024-06-01T00:00:00Z
+CI-012,AW-018,,Data sharing plan,2025-01-31,Submitted,PCORI data sharing plan update,Sponsor,2024-01-15T00:00:00Z

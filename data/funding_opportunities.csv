@@ -1,43 +1,20 @@
-<<<<<<< Updated upstream
-opportunity_id,opportunity_name,sponsor,sponsor_type,award_type,funding_mechanism,max_direct_costs_usd,max_project_period_months,application_deadline_cycle,eligibility_notes,success_rate_cu_anschutz,description
-OPP-001,NIH Research Project Grant,NIH,Federal,R01,Research Project,5000000,60,Standard (Feb/Jun/Oct),Independent investigator status,29%,Most common NIH grant for discrete research projects
-OPP-002,NIH Exploratory Developmental Grant,NIH,Federal,R21,Exploratory/Developmental,275000,24,Standard (Feb/Jun/Oct),Less preliminary data than R01,29%,Pilot/feasibility studies; preparation for R01
-OPP-003,NIH Small Research Grant,NIH,Federal,R03,Small Grant,100000,24,Standard (Feb/Jun/Oct),Limited competition,29%,Small discrete projects
-OPP-004,NIH Mentored Clinical Scientist,NIH,Federal,K08,Research Career Development,500000,60,Standard (Feb/Jun/Oct),Postdoctoral to independent investigator,36%,Career development for physician-scientists
-OPP-005,NIH Mentored Patient-Oriented Research,NIH,Federal,K23,Research Career Development,500000,60,Standard (Feb/Jun/Oct),Postdoctoral to independent investigator,36%,Career development for patient-oriented research
-OPP-006,NIH Cooperative Agreement,NIH,Federal,U01,Cooperative Agreement,5000000,60,Varies by FOA,NIH staff substantial involvement,29%,Collaborative research with NIH involvement
-OPP-007,NIH Phased Innovation Award,NIH,Federal,R33,Phased Innovation,1500000,36,Linked to R21 phase,Follow-on from R21,29%,Continuation of successful R21
-OPP-008,NIH Education Program Grant,NIH,Federal,R25,Education/Training,500000,60,Varies by FOA,Training institutions,29%,Curriculum development and training
-OPP-009,AHRQ Research Project Grant,AHRQ,Federal,R01,Research Project,3000000,60,Standard,AHRQ priority areas,57%,Health services research; primary care
-OPP-010,CDC Research Grant,CDC,Federal,R21,Exploratory/Developmental,275000,24,Varies by FOA,Public health focus,57%,Epidemiology; prevention research
-OPP-011,CCTSI Institutional Award,NCATS/NIH,Federal,UL1,Clinical Translational Science,54000000,84,Institutional,CTSA consortium member,100%,Colorado Clinical Translational Sciences Institute
-OPP-012,ARPA-H Breakthrough Award,ARPA-H,Federal,Cooperative Agreement,46000000,60,Solicitation-based,High-impact biomedical innovation,100%,Advanced Research Projects Agency for Health
-OPP-013,PCORI Research Award,PCORI,Foundation,Research Contract,Patient-Centered Outcomes,5000000,60,Multiple cycles,Patient engagement required,57%,Comparative effectiveness research
-OPP-014,American Cancer Society Grant,American Cancer Society,Foundation,Research Grant,Cancer Research,500000,36,Standard (Oct),Cancer-focused research,57%,Basic and translational cancer research
-OPP-015,American Academy of Pediatrics,American Academy of Pediatrics,Foundation,Grant,Pediatric Research,100000,24,Standard,Pediatric focus,57%,Child health initiatives
-OPP-016,Anschutz Acceleration Initiative,CU Anschutz,Internal,Pilot Grant,Pilot/Seed,100000,12,Annual,Anschutz faculty,100%,Internal innovation funding
-OPP-017,Ergen Family Chair Pilot,Ergen Family Foundation,Foundation,Pilot Grant,Pilot/Seed,50000,12,Annual,Pediatric emergency focus,100%,Pediatric emergency department research
-OPP-018,PEDSNet Scholar Award,Children's Hospital of Philadelphia,Subcontract,Scholar Program,Training,75000,24,Annual,Pediatric health services,57%,PEDSNet consortium member
-OPP-019,NIH Diversity Supplement,NIH,Federal,Supplement,Diversity,100000,12,Parent grant dependent,Underrepresented groups,100%,Enhance workforce diversity
-=======
-Name,Opportunity_Id__c,Sponsor__c,Sponsor_Type__c,Award_Type__c,Funding_Mechanism__c,Max_Direct_Costs__c,Success_Rate__c,Description__c
-NIH Research Project Grant,OPP-001,NIH,Federal,R01,Research Project,5000000,29%,Most common NIH grant for discrete research projects
-NIH Exploratory Developmental Grant,OPP-002,NIH,Federal,R21,Exploratory/Developmental,275000,29%,Pilot/feasibility studies; preparation for R01
-NIH Small Research Grant,OPP-003,NIH,Federal,R03,Small Grant,100000,29%,Small discrete projects
-NIH Mentored Clinical Scientist K08,OPP-004,NIH,Federal,K08,Research Career Development,500000,36%,Career development for physician-scientists
-NIH Mentored Patient-Oriented Research K23,OPP-005,NIH,Federal,K23,Research Career Development,500000,36%,Career development for patient-oriented research
-NIH Cooperative Agreement,OPP-006,NIH,Federal,U01,Cooperative Agreement,5000000,29%,Collaborative research with NIH involvement
-NIH Phased Innovation Award,OPP-007,NIH,Federal,R33,Phased Innovation,1500000,29%,Continuation of successful R21
-NIH Education Program Grant,OPP-008,NIH,Federal,R25,Education/Training,500000,29%,Curriculum development and training
-AHRQ Research Project Grant,OPP-009,AHRQ,Federal,R01,Research Project,3000000,57%,Health services research; primary care
-CDC Research Grant,OPP-010,CDC,Federal,R21,Exploratory/Developmental,275000,57%,Epidemiology; prevention research
-CCTSI Institutional Award,OPP-011,NCATS/NIH,Federal,UL1,Clinical Translational Science,54000000,100%,Colorado Clinical Translational Sciences Institute
-ARPA-H Breakthrough Award,OPP-012,ARPA-H,Federal,Cooperative Agreement,46000000,100%,Advanced Research Projects Agency for Health
-PCORI Research Award,OPP-013,PCORI,Foundation,Research Contract,Patient-Centered Outcomes,5000000,57%,Comparative effectiveness research
-American Cancer Society Grant,OPP-014,American Cancer Society,Foundation,Research Grant,Cancer Research,500000,57%,Basic and translational cancer research
-American Academy of Pediatrics,OPP-015,American Academy of Pediatrics,Foundation,Grant,Pediatric Research,100000,57%,Child health initiatives
-Anschutz Acceleration Initiative,OPP-016,CU Anschutz,Internal,Pilot Grant,Pilot/Seed,100000,100%,Internal innovation funding
-Ergen Family Chair Pilot,OPP-017,Ergen Family Foundation,Foundation,Pilot Grant,Pilot/Seed,50000,100%,Pediatric emergency department research
-PEDSNet Scholar Award,OPP-018,Children's Hospital of Philadelphia,Subcontract,Scholar Program,Training,75000,57%,PEDSNet consortium member
-NIH Diversity Supplement,OPP-019,NIH,Federal,Supplement,Diversity,100000,100%,Enhance workforce diversity
->>>>>>> Stashed changes
+opportunity_id,opportunity_name,sponsor,sponsor_type,award_type,funding_mechanism,max_direct_costs_usd,max_project_period_months,application_deadline_cycle,eligibility_notes,success_rate_cu_anschutz,description,deadline_notes,terms_ref
+OPP-001,NIH Research Project Grant,NIH,Federal,R01,Research Project,5000000,60,Standard (Feb/Jun/Oct),Independent investigator status,29%,Most common NIH grant for discrete research projects,2025-02-05,R01-FOA
+OPP-002,NIH Exploratory Developmental Grant,NIH,Federal,R21,Exploratory/Developmental,275000,24,Standard (Feb/Jun/Oct),Less preliminary data than R01,29%,Pilot/feasibility studies; preparation for R01,2025-02-16,R21-FOA
+OPP-003,NIH Small Research Grant,NIH,Federal,R03,Small Grant,100000,24,Standard (Feb/Jun/Oct),Limited competition,29%,Small discrete projects,2025-03-01,R03-FOA
+OPP-004,NIH Mentored Clinical Scientist,NIH,Federal,K08,Research Career Development,500000,60,Standard (Feb/Jun/Oct),Postdoctoral to independent investigator,36%,Career development for physician-scientists,2025-02-05,K08-FOA
+OPP-005,NIH Mentored Patient-Oriented Research,NIH,Federal,K23,Research Career Development,500000,60,Standard (Feb/Jun/Oct),Postdoctoral to independent investigator,36%,Career development for patient-oriented research,2025-02-05,K23-FOA
+OPP-006,NIH Cooperative Agreement,NIH,Federal,U01,Cooperative Agreement,5000000,60,Varies by FOA,NIH staff substantial involvement,29%,Collaborative research with NIH involvement,2025-04-01,U01-FOA
+OPP-007,NIH Phased Innovation Award,NIH,Federal,R33,Phased Innovation,1500000,36,Linked to R21 phase,Follow-on from R21,29%,Continuation of successful R21,2025-05-01,R33-FOA
+OPP-008,NIH Education Program Grant,NIH,Federal,R25,Education/Training,500000,60,Varies by FOA,Training institutions,29%,Curriculum development and training,2025-05-25,R25-FOA
+OPP-009,AHRQ Research Project Grant,AHRQ,Federal,R01,Research Project,3000000,60,Standard,AHRQ priority areas,57%,Health services research; primary care,2025-01-15,AHRQ-R01
+OPP-010,CDC Research Grant,CDC,Federal,R21,Exploratory/Developmental,275000,24,Varies by FOA,Public health focus,57%,Epidemiology; prevention research,2025-03-15,CDC-R21
+OPP-011,CCTSI Institutional Award,NCATS/NIH,Federal,UL1,Clinical Translational Science,54000000,84,Institutional,CTSA consortium member,100%,Colorado Clinical Translational Sciences Institute; public award $54M 2024,2024-07-01,UL1-CTSA
+OPP-012,ARPA-H Breakthrough Award,ARPA-H,Federal,Cooperative Agreement,46000000,60,Solicitation-based,High-impact biomedical innovation,100%,Advanced Research Projects Agency for Health; CU Anschutz public award,2024-10-01,ARPA-H-FOA
+OPP-013,PCORI Research Award,PCORI,Foundation,Research Contract,Patient-Centered Outcomes,5000000,60,Multiple cycles,Patient engagement required,57%,Comparative effectiveness research,2025-06-01,PCORI-PFA
+OPP-014,American Cancer Society Grant,American Cancer Society,Foundation,Research Grant,Cancer Research,500000,36,Standard (Oct),Cancer-focused research,57%,Basic and translational cancer research,2025-10-15,ACS-RFA
+OPP-015,American Academy of Pediatrics,American Academy of Pediatrics,Foundation,Grant,Pediatric Research,100000,24,Standard,Pediatric focus,57%,Child health initiatives,2025-04-30,AAP-RFA
+OPP-016,Anschutz Acceleration Initiative,CU Anschutz,Internal,Pilot Grant,Pilot/Seed,100000,12,Annual,Anschutz faculty,100%,Internal innovation funding,2025-09-01,AAI-Pilot
+OPP-017,Ergen Family Chair Pilot,Ergen Family Foundation,Foundation,Pilot Grant,Pilot/Seed,50000,12,Annual,Pediatric emergency focus,100%,Pediatric emergency department research,2025-08-01,Ergen-Pilot
+OPP-018,PEDSNet Scholar Award,Children's Hospital of Philadelphia,Subcontract,Scholar Program,Training,75000,24,Annual,Pediatric health services,57%,PEDSNet consortium member,2025-05-01,PEDSNet-RFA
+OPP-019,NIH Diversity Supplement,NIH,Federal,Supplement,Diversity,100000,12,Parent grant dependent,Underrepresented groups,100%,Enhance workforce diversity,2025-07-01,NIH-Div-Supp

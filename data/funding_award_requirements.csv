@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 requirement_id,opportunity_id,requirement_type,requirement_name,requirement_value,is_mandatory,description
 REQ-001,OPP-001,budget,Direct costs per year max,500000,true,Maximum direct costs per 12-month budget period
 REQ-002,OPP-001,narrative,Research strategy page limit,12,true,Main research plan section page limit
@@ -26,32 +25,3 @@ REQ-023,OPP-019,eligibility,Diversity criteria,Underrepresented group,true,Enhan
 REQ-024,OPP-001,compliance,IRB approval,Required before funding,true,Human subjects research approval
 REQ-025,OPP-001,compliance,IACUC approval,Required if applicable,false,Animal research approval
 REQ-026,OPP-001,compliance,Data sharing plan,Required,true,NIH data management and sharing policy
-=======
-Name,Funding_Opportunity__r.Opportunity_Id__c,Requirement_Type__c,Requirement_Name__c,Requirement_Value__c,Is_Mandatory__c
-Direct costs per year max,OPP-001,budget,Direct costs per year max,500000,true
-Research strategy page limit,OPP-001,narrative,Research strategy page limit,12,true
-Specific aims page limit,OPP-001,narrative,Specific aims page limit,1,true
-PI status,OPP-001,eligibility,PI status,Independent investigator,true
-Application format,OPP-001,submission,Application format,SF424 R&R,true
-Total direct costs max,OPP-002,budget,Total direct costs max,275000,true
-Project period max months,OPP-002,budget,Project period max months,24,true
-Research strategy page limit,OPP-002,narrative,Research strategy page limit,6,true
-Preliminary data,OPP-002,eligibility,Preliminary data,Not required,false
-Total direct costs max,OPP-003,budget,Total direct costs max,100000,true
-Research strategy page limit,OPP-003,narrative,Research strategy page limit,10,true
-Career stage,OPP-004,eligibility,Career stage,Postdoctoral or early faculty,true
-Mentor requirement,OPP-004,eligibility,Mentor requirement,Required,true
-Salary support percent,OPP-004,budget,Salary support percent,75,true
-Career stage,OPP-005,eligibility,Career stage,Postdoctoral or early faculty,true
-Clinical degree,OPP-005,eligibility,Clinical degree,Required,true
-NIH staff involvement,OPP-006,eligibility,NIH staff involvement,Substantial,true
-Research focus,OPP-009,eligibility,Research focus,Health services/primary care,true
-Patient engagement,OPP-013,eligibility,Patient engagement,Required,true
-Comparative effectiveness,OPP-013,eligibility,Comparative effectiveness,Required,true
-Institutional,OPP-011,eligibility,Institutional,CTSA consortium,true
-Institutional,OPP-016,eligibility,Institutional,CU Anschutz faculty,true
-Diversity criteria,OPP-019,eligibility,Diversity criteria,Underrepresented group,true
-IRB approval,OPP-001,compliance,IRB approval,Required before funding,true
-IACUC approval,OPP-001,compliance,IACUC approval,Required if applicable,false
-Data sharing plan,OPP-001,compliance,Data sharing plan,Required,true
->>>>>>> Stashed changes

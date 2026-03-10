@@ -1,0 +1,10 @@
+id,grant_id,document_type,storage_ref,created_at,description,source_system,ingested_at
+DOC-001,AW-001,Notice of Award,OnBase/NOA/AW-001.pdf,2024-08-15T00:00:00Z,AHRQ NoA 1R01HS029754-01,OnBase,2024-09-01T00:00:00Z
+DOC-002,AW-001,Subaward agreement,,2024-09-01T00:00:00Z,Subrecipient agreement - none,Cayuse,2024-09-01T00:00:00Z
+DOC-003,AW-007,Notice of Award,OnBase/NOA/AW-007.pdf,2024-07-20T00:00:00Z,NIH NIA NoA 1R01AG078234-01,OnBase,2024-08-01T00:00:00Z
+DOC-004,AW-008,Contract,OnBase/CONTRACT/AW-008.pdf,2024-06-25T00:00:00Z,NCI award agreement 1R01CA284567-01,OnBase,2024-07-01T00:00:00Z
+DOC-005,AW-013,PCORI contract,OnBase/PCORI/AW-013.pdf,2024-04-20T00:00:00Z,PCORI research contract CHEER,OnBase,2024-05-01T00:00:00Z
+DOC-006,AW-025,CTSA cooperative agreement,OnBase/CTSA/AW-025.pdf,2024-06-15T00:00:00Z,CCTSI UL1 cooperative agreement 2024-2031,OnBase,2024-07-01T00:00:00Z
+DOC-007,AW-026,ARPA-H agreement,OnBase/ARPA-H/AW-026.pdf,2024-09-25T00:00:00Z,ARPA-H Eye transplant cooperative agreement,OnBase,2024-10-01T00:00:00Z
+DOC-008,AW-007,Cost transfer approval,OnBase/CT/CT-001.pdf,2024-11-05T00:00:00Z,Approved cost transfer CT-001,OnBase,2024-11-06T00:00:00Z
+DOC-009,AW-018,Data sharing plan,OnBase/DMP/AW-018.pdf,2025-01-20T00:00:00Z,PCORI data sharing plan submitted,OnBase,2025-01-21T00:00:00Z

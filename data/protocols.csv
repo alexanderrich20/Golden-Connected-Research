@@ -1,0 +1,18 @@
+id,researcher_id,protocol_type,status,expiry_date,title,submitted_date,source_system,ingested_at
+PROT-001,RES-001,IRB,Approved,2025-08-01,Child psychosocial screening in primary care - consent and surveys,2024-02-01,eProtocol,2024-06-01T00:00:00Z
+PROT-002,RES-002,IRB,Approved,2025-09-15,Dementia shared decision-making intervention,2024-02-15,eProtocol,2024-06-01T00:00:00Z
+PROT-003,RES-003,IRB,Approved,2025-07-01,Antibiotic stewardship pediatric pneumonia - chart review,2024-02-20,eProtocol,2024-06-01T00:00:00Z
+PROT-004,RES-006,IRB,Approved,2025-10-01,Older adults with cancer - SNF outcomes,2024-02-10,eProtocol,2024-06-01T00:00:00Z
+PROT-005,RES-007,IRB,Approved,2025-11-01,NMES after TKA - rehabilitation trial,2024-01-20,eProtocol,2024-06-01T00:00:00Z
+PROT-006,RES-008,IRB,Approved,2025-12-01,Primary care cancer prevention - equity,2024-01-10,eProtocol,2024-06-01T00:00:00Z
+PROT-007,RES-009,IRB,Approved,2026-01-15,Breast cancer sexual health - patient survey,2024-01-25,eProtocol,2024-06-01T00:00:00Z
+PROT-008,RES-010,IRB,Approved,2025-06-30,NAVIGATE-Kidney diversity workforce,2024-01-15,eProtocol,2024-06-01T00:00:00Z
+PROT-009,RES-011,IRB,Approved,2025-08-15,Childhood obesity family meals - video feedback,2024-01-05,eProtocol,2024-06-01T00:00:00Z
+PROT-010,RES-012,IRB,Approved,2026-02-01,CHEER engagement and equity - comparative,2024-02-01,eProtocol,2024-06-01T00:00:00Z
+PROT-011,RES-014,IRB,Approved,2025-09-01,Psychosocial stress and cardiometabolic - children,2023-12-15,eProtocol,2024-06-01T00:00:00Z
+PROT-012,RES-015,IRB,Approved,2025-10-15,Cancer supportive care - technology training,2024-01-10,eProtocol,2024-06-01T00:00:00Z
+PROT-013,RES-016,IRB,Approved,2026-01-01,Heart failure neurohormonal - clinician tools,2023-12-01,eProtocol,2024-06-01T00:00:00Z
+PROT-014,RES-020,IRB,Approved,2025-07-15,LinkAssist record linkage - de-identified data,2024-02-25,eProtocol,2024-06-01T00:00:00Z
+PROT-015,RES-021,IRB,Approved,2025-08-01,Breast cancer risk - Black women decision making,2024-06-01,eProtocol,2024-06-15T00:00:00Z
+PROT-016,RES-022,IRB,Approved,2025-05-01,CDKL5 biomarkers - multi-site validation,2024-02-15,eProtocol,2024-06-01T00:00:00Z
+PROT-017,RES-023,IRB,Approved,2025-06-01,Heart replacement requirements - best practices,2024-02-28,eProtocol,2024-06-01T00:00:00Z
